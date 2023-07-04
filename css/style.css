@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around; 
+    height: 70px;   
+}
+
+.opcoes{
+    display: flex;
+    gap: 3em;
+    margin-top: 10px;
+}
+
+.lista{
+    list-style-type: none;   
+    display: flex;
+    gap: 3em;
+    color: #0e2a34;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.banner{
+    height: 47em;
+    background-image: url(https://www.loopnerd.com.br/artigos/templates/onepage/onepage-template-01-tema-barbearia/uploads/capa/banner-home.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo{
+    font-family: 'Poppins', sans-serif; 
+    text-align: center;
+    color: #4f76f5;
+}
+
+
+.fotos{
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.foto{
+    height: 24em;
+    width: 25em;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.tituloservico{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #4f76f5;
+}
+
+.descricaoservico{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.textobanner{
+    color: white;   
+    font-size: 100px;
+    text-shadow: 3px 2px 6px #535353;
+    padding: 0;
+    margin: 0;
+}
+
+.textobannerdois{
+    font-size: 1.1em;
+    color: white;
+    letter-spacing: 18px;
+}
+
+.backgroundbarber{
+    background-image: url(https://www.loopnerd.com.br/artigos/templates/onepage/onepage-template-01-tema-barbearia/uploads/background/bg-barber.png);
+    height: 5px;
+    width: 100%;
+}
+
+
+.galeriafotos{
+    background-color: #535353;
+    color: white;
+    height: 45em;
+    text-align: center;
+
+}
+
+.galeriafotos h1{
+    margin: 0;
+    margin-bottom: 5em;
+    
+}
+.fotogaleria{
+    width: 20em;
+    margin: 10px;
+    
+}
+
+
+
+
